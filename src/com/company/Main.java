@@ -14,5 +14,16 @@ public class Main {
 
         System.out.println(comissionEmployee.getFullName());
         System.out.println(comissionEmployee.getToltalEarning());
+
+        SalaryPlusComissionEmployee salaryPlusComissionEmployee = new SalaryPlusComissionEmployee("md","abc",
+                "def",10000,5,1000);
+
+
+        System.out.println(salaryPlusComissionEmployee.getFullName());
+        System.out.println(salaryPlusComissionEmployee.getToltalEarning());
+
+
+
+
     }
 }
